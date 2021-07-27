@@ -1,0 +1,25 @@
+.container-lut {
+  height: calc(130vh - 90px);
+  display: flex;
+  align-items: flex-start;
+  padding-left: 50px;
+  flex-direction: column;
+  background-color: rgb(68, 63, 63) !important;
+}
+
+h2,
+h4 {
+  margin: 30px !important;
+  color: aliceblue;
+}
+
+h6 {
+  color: aliceblue;
+  max-width: 70%;
+  text-align: justify;
+}
+
+.lista1,
+.lista2 {
+  color: aliceblue;
+}

@@ -45,7 +45,6 @@ const Example = (props) => {
                 <DropdownItem className="dropdown-item" href="/luthier">
                   Luthier
                 </DropdownItem>
-                <DropdownItem href="/caixasDeSom">Caixas de Som</DropdownItem>
                 <DropdownItem className="dropdown-divider" divider />
                 <DropdownItem href="/contato">Contato</DropdownItem>
               </DropdownMenu>
