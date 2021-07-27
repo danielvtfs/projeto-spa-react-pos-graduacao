@@ -9,6 +9,7 @@ import Luthier from './pages/Luthier/Luthier';
 import Contato from './pages/Contato/Contato';
 import Album from './pages/Album/Album';
 import SaibaMais from './pages/SaibaMais/SaibaMais';
+import Videos from './pages/Videos/Videos';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/contato" component={Contato} />
         <Route path="/album" component={Album} />
         <Route path="/saibaMais" component={SaibaMais} />
+        <Route path="/videos" component={Videos} />
       </Switch>
       <Footer />
     </BrowserRouter>

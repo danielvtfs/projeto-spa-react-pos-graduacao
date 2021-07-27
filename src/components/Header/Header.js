@@ -51,7 +51,12 @@ const Example = (props) => {
             </UncontrolledDropdown>
             <NavItem>
               <NavLink className="navItem" href="/album">
-                Álbum
+                Fotos
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink className="navItem" href="/videos">
+                Vídeos
               </NavLink>
             </NavItem>
           </Nav>
