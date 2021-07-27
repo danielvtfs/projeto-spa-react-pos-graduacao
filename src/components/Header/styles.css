@@ -22,3 +22,14 @@
 .navItem {
   color: aliceblue !important;
 }
+
+.dropdown-menu {
+  background-color: rgb(41, 36, 36) !important;
+}
+.dropdown-item {
+  font-weight: bold;
+  color: aliceblue !important;
+}
+.dropdown-divider {
+  background-color: aliceblue !important;
+}

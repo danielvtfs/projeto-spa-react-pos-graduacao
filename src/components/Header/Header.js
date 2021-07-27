@@ -41,10 +41,12 @@ const Example = (props) => {
               <DropdownToggle className="navItem" nav caret>
                 Serviços
               </DropdownToggle>
-              <DropdownMenu right>
-                <DropdownItem href="/luthier">Luthier</DropdownItem>
+              <DropdownMenu className="dropdown-menu" right>
+                <DropdownItem className="dropdown-item" href="/luthier">
+                  Luthier
+                </DropdownItem>
                 <DropdownItem href="/caixasDeSom">Caixas de Som</DropdownItem>
-                <DropdownItem divider />
+                <DropdownItem className="dropdown-divider" divider />
                 <DropdownItem href="/contato">Contato</DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
