@@ -4,10 +4,11 @@
 }
 
 .navbar {
-  background-color: rgb(214, 96, 96);
+  background-color: rgb(41, 36, 36);
 }
 .mr-auto {
   position: fixed;
+
   right: 0;
   font-weight: bold;
   margin-right: 20px;
@@ -15,4 +16,9 @@
 
 .nameLogo {
   font-weight: bold;
+  color: aliceblue !important;
+}
+
+.navItem {
+  color: aliceblue !important;
 }

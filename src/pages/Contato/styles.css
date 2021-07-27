@@ -1,0 +1,30 @@
+.container {
+  max-width: 500px !important;
+}
+.container-form {
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 30px;
+  background-color: rgb(132, 193, 218);
+}
+.textarea {
+  resize: none;
+  width: 300px !important;
+}
+.nome {
+  width: 300px !important;
+}
+.email {
+  width: 300px !important;
+}
+
+.botao-enviar {
+  width: 100px;
+}
+
+.fale-conosco {
+  width: 100%;
+}
